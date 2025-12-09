@@ -1,0 +1,41 @@
+{
+  "document_annotations": [
+    {
+      "rule_id": "STRUCT_003",
+      "severity": "minor",
+      "location": "Checked**: page\\_de\\_garde.content",
+      "page_number": null,
+      "exact_phrase": "",
+      "character_count": 0,
+      "violation_comment": "[STRUCT_003] The cover page must include a clear designation that this is promotional material",
+      "required_action": "Add 'Promotional Document' designation to the cover page"
+    },
+    {
+      "rule_id": "STRUCT_005",
+      "severity": "minor",
+      "location": "Checked**: page\\_de\\_garde.content",
+      "page_number": null,
+      "exact_phrase": "",
+      "character_count": 0,
+      "violation_comment": "[STRUCT_005] Pre-commercialisation funds must include a prominent disclaimer indicating the fund has not yet been approved by regulators",
+      "required_action": "Add the required disclaimer in red and bold text"
+    },
+    {
+      "rule_id": "STRUCT_008",
+      "severity": "minor",
+      "location": "Checked**: slide\\_2.content",
+      "page_number": null,
+      "exact_phrase": "",
+      "character_count": 0,
+      "violation_comment": "[STRUCT_008] Slide 2 must contain the appropriate standard disclaimer based on target audience, with customization for fund name and eligibility",
+      "required_action": "Add the appropriate disclaimer from glossary and customize for fund and eligible clients"
+    }
+  ],
+  "summary": {
+    "total_violations": 3,
+    "critical_violations": 0,
+    "major_violations": 0,
+    "minor_violations": 3
+  },
+  "instructions": "Use this file to highlight violations in the document. Each annotation contains the exact location, phrase, and violation details for commenting."
+}

@@ -1,0 +1,138 @@
+COMPLIANCE VALIDATION REPORT
+================================================================================
+
+Generated using TokenFactory API (Llama-3.1-70B-Instruct)
+Document: C:\Users\moham\Desktop\interTRIAL\new_approach\backend\uploads\241bff08-4b04-44dd-a316-66a26640555e\extracted_document.json
+Rules: structure_rules.json
+Metadata: C:\Users\moham\Desktop\interTRIAL\new_approach\backend\uploads\241bff08-4b04-44dd-a316-66a26640555e\metadata.json
+================================================================================
+
+**VALIDATION RESULTS**
+
+### STRUCT_001: Fund name in page_de_garde.fund_name
+- **Rule ID**: STRUCT_001
+- **Section**: Cover Page
+- **Applicability**: Yes
+- **JSON Path Checked**: page_de_garde.content[3].text
+- **Value Found**: ODDO BHF US Equity Active UCITS ETF
+- **Validation Result**: COMPLIANT ✅
+- **Explanation**: The fund name is present on the cover page.
+
+### STRUCT_002: Date in page_de_garde.date
+- **Rule ID**: STRUCT_002
+- **Section**: Cover Page
+- **Applicability**: Yes
+- **JSON Path Checked**: page_de_garde.content[0].text
+- **Value Found**: October 2025
+- **Validation Result**: COMPLIANT ✅
+- **Explanation**: The date is present on the cover page in the correct format (Month YYYY).
+
+### STRUCT_003: Promotional document mention in page_de_garde.promotional_document_mention
+- **Rule ID**: STRUCT_003
+- **Section**: Cover Page
+- **Applicability**: Yes
+- **JSON Path Checked**: N/A (not found)
+- **Value Found**: N/A
+- **Validation Result**: VIOLATION ❌
+- **Explanation**: The mention 'promotional document' is missing from the cover page.
+
+### STRUCT_004: Target audience in page_de_garde.target_audience
+- **Rule ID**: STRUCT_004
+- **Section**: Cover Page
+- **Applicability**: Yes
+- **JSON Path Checked**: N/A (not found)
+- **Value Found**: N/A
+- **Validation Result**: VIOLATION ❌
+- **Explanation**: The target audience (retail/professional) is not indicated on the cover page.
+
+### STRUCT_005: Pre-commercialisation warning (check document_metadata.fund_status)
+- **Rule ID**: STRUCT_005
+- **Section**: Cover Page
+- **Applicability**: Yes (fund_status: pre-commercialisation)
+- **JSON Path Checked**: N/A (not found)
+- **Value Found**: N/A
+- **Validation Result**: VIOLATION ❌
+- **Explanation**: The pre-commercialisation disclaimer is missing from the cover page.
+
+### STRUCT_006: "Do not disclose" mention (only if professional)
+- **Rule ID**: STRUCT_006
+- **Section**: Cover Page
+- **Applicability**: No (client_type: retail)
+- **JSON Path Checked**: N/A
+- **Value Found**: N/A
+- **Validation Result**: N/A
+- **Explanation**: This rule does not apply to retail clients.
+
+### STRUCT_007: Client name (only if client-specific)
+- **Rule ID**: STRUCT_007
+- **Section**: Cover Page
+- **Applicability**: No (not client-specific)
+- **JSON Path Checked**: N/A
+- **Value Found**: N/A
+- **Validation Result**: N/A
+- **Explanation**: This rule does not apply to non-client-specific documents.
+
+### STRUCT_008: Standard disclaimer on slide_2
+- **Rule ID**: STRUCT_008
+- **Section**: Disclaimer Slide (Slide 2)
+- **Applicability**: Yes
+- **JSON Path Checked**: slide_2.content[2].text
+- **Value Found**: An active ETF is an exchange-traded fund that is actively managed...
+- **Validation Result**: VIOLATION ❌
+- **Explanation**: The standard disclaimer is missing or not properly customized.
+
+### STRUCT_009: Complete risk profile on slide_2.all_risks_listed
+- **Rule ID**: STRUCT_009
+- **Section**: Disclaimer Slide (Slide 2)
+- **Applicability**: Yes
+- **JSON Path Checked**: N/A (not found)
+- **Value Found**: N/A
+- **Validation Result**: VIOLATION ❌
+- **Explanation**: The complete list of risk profile conforming to prospectus is missing.
+
+### STRUCT_010: Commercialisation countries on slide_2
+- **Rule ID**: STRUCT_010
+- **Section**: Disclaimer Slide (Slide 2)
+- **Applicability**: Yes
+- **JSON Path Checked**: N/A (not found)
+- **Value Found**: N/A
+- **Validation Result**: VIOLATION ❌
+- **Explanation**: The list of commercialisation countries is missing.
+
+### STRUCT_011: SGP legal mention on page_de_fin.legal_mention_sgp
+- **Rule ID**: STRUCT_011
+- **Section**: Back Page
+- **Applicability**: Yes
+- **JSON Path Checked**: page_de_fin.content[1].text
+- **Value Found**: ODDO BHF Asset Management SAS (France)...
+- **Validation Result**: COMPLIANT ✅
+- **Explanation**: The legal mention of the management company is present on the back page.
+
+**SUMMARY**
+
+- **CRITICAL VIOLATIONS** (severity: critical): 6
+  - STRUCT_003: Promotional document mention missing
+  - STRUCT_004: Target audience missing
+  - STRUCT_005: Pre-commercialisation warning missing
+  - STRUCT_008: Standard disclaimer missing or not properly customized
+  - STRUCT_009: Complete risk profile missing
+  - STRUCT_010: Commercialisation countries list missing
+
+- **MAJOR ISSUES** (severity: major): 0
+
+- **MINOR ISSUES** (severity: minor): 0
+
+- **COMPLIANT ELEMENTS**: 2
+  - STRUCT_001: Fund name present
+  - STRUCT_002: Date present in correct format
+  - STRUCT_011: SGP legal mention present
+
+- **Total Violations Count**: 6
+
+- **Detailed Remediation Steps**:
+  1. Add the mention 'promotional document' to the cover page.
+  2. Indicate the target audience (retail/professional) on the cover page.
+  3. Add the pre-commercialisation disclaimer to the cover page.
+  4. Add the standard disclaimer to slide 2 and customize it for the fund and eligible clients.
+  5. Add the complete list of risk profile conforming to prospectus to slide 2.
+  6. Add the list of commercialisation countries to slide 2.

@@ -1,0 +1,31 @@
+{
+  "document_annotations": [
+    {
+      "rule_id": "PERF_011",
+      "severity": "critical",
+      "location": "unknown",
+      "page_number": 1,
+      "exact_phrase": "** The fund is less than one year old, but the document mentions \"historically attractive performance\" (slide 3) and \"Momentum historically outperformed the broad market in the USA\" (slide 4). This implies performance, which is prohibited for funds under one year old.",
+      "character_count": 268,
+      "violation_comment": "[PERF_011] ** The fund is less than one year old, but the document mentions \"historically attractive performance\" (slide 3) and \"Momentum historically outperformed the broad market in the USA\" (slide 4). This implies performance, which is prohibited for funds under one year old.",
+      "required_action": "** Remove all mentions implying performance."
+    },
+    {
+      "rule_id": "PERF_054",
+      "severity": "minor",
+      "location": "unknown",
+      "page_number": 1,
+      "exact_phrase": "",
+      "character_count": 0,
+      "violation_comment": "[PERF_054] ",
+      "required_action": "Review and correct violation"
+    }
+  ],
+  "summary": {
+    "total_violations": 2,
+    "critical_violations": 1,
+    "major_violations": 0,
+    "minor_violations": 1
+  },
+  "instructions": "Use this file to highlight violations in the document. Each annotation contains the exact location, phrase, and violation details for commenting."
+}

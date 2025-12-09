@@ -1,0 +1,391 @@
+{
+  "document_annotations": [
+    {
+      "rule_id": "PROSP_001",
+      "severity": "critical",
+      "location": "ranges, geographic allocation details, and the minimum investment amount. This information must be consistent with the fund's legal documentation (prospectus).",
+      "page_number": 1,
+      "exact_phrase": "** Multiple fields related to investment strategy are missing: `investment_strategy`, `investment_thresholds`, `asset_allocation`, `geographic_allocation`, and `minimum_investment`.",
+      "character_count": 181,
+      "violation_comment": "[PROSP_001] *   **Description:** Investment strategy must be presented in conformity with legal documentation\n    *   **Finding:** Multiple fields related to investment strategy are missing: `investment_strategy`, `investment_thresholds`, `asset_allocation`, `geographic_allocation`, and `minimum_investment`.\n  ",
+      "required_action": "** Provide a detailed description of the investment strategy, including specific investment thresholds, asset allocation ranges, geographic allocation details, and the minimum investment amount. This information must be consistent with the fund's legal documentation (prospectus)."
+    },
+    {
+      "rule_id": "PROSP_002",
+      "severity": "critical",
+      "location": "document-wide",
+      "page_number": 1,
+      "exact_phrase": "** The `risk_profile` field is missing. While the document mentions \"Main Risks,\" it lacks a comprehensive risk profile. The SRI field is also missing.",
+      "character_count": 151,
+      "violation_comment": "[PROSP_002] *   **Description:** Risk profile must be exhaustive and conform to prospectus\n    *   **Finding:** The `risk_profile` field is missing. While the document mentions \"Main Risks,\" it lacks a comprehensive risk profile. The SRI field is also missing.\n    *   **Evidence from Document:** The document li",
+      "required_action": "** Include a complete and detailed risk profile, consistent with the fund's prospectus. This should include a clear explanation of each risk factor and the SRI indicator."
+    },
+    {
+      "rule_id": "PROSP_003",
+      "severity": "critical",
+      "location": "document-wide",
+      "page_number": 1,
+      "exact_phrase": "** The `sri` field does not exist in the provided document excerpt.",
+      "character_count": 67,
+      "violation_comment": "[PROSP_003] *   **Description:** SRI must match prospectus exactly with disclaimer on same slide\n    *   **Finding:** The `sri` field does not exist in the provided document excerpt.\n    *   **Evidence from Document:** The field 'sri' does not exist in the provided document excerpt.\n    *   **Required Action:**",
+      "required_action": "** The Synthetic Risk Indicator (SRI X/7) must be displayed exactly as in prospectus with associated disclaimer"
+    },
+    {
+      "rule_id": "PROSP_004",
+      "severity": "critical",
+      "location": "document-wide",
+      "page_number": 1,
+      "exact_phrase": "** The `benchmark` and `reference_indicator` fields are missing.",
+      "character_count": 64,
+      "violation_comment": "[PROSP_004] *   **Description:** Performance benchmark must be the official one from prospectus\n    *   **Finding:** The `benchmark` and `reference_indicator` fields are missing.\n    *   **Evidence from Document:** The document does not explicitly mention a benchmark.\n    *   **Required Action:** Clearly state ",
+      "required_action": "** Clearly state the official performance benchmark as defined in the fund's prospectus."
+    },
+    {
+      "rule_id": "PROSP_006",
+      "severity": "critical",
+      "location": "document-wide",
+      "page_number": 1,
+      "exact_phrase": "** The `performance_target` and `investment_objective` fields are missing.",
+      "character_count": 74,
+      "violation_comment": "[PROSP_006] *   **Description:** Performance target must match if defined in prospectus objective\n    *   **Finding:** The `performance_target` and `investment_objective` fields are missing.\n    *   **Evidence from Document:** The document does not specify a performance target or investment objective.\n    *   *",
+      "required_action": "** If the fund has a performance target (e.g., outperformance objective), it must be clearly stated and consistent with the prospectus. The investment objective must also be clearly stated."
+    },
+    {
+      "rule_id": "PROSP_008",
+      "severity": "critical",
+      "location": "document-wide",
+      "page_number": 1,
+      "exact_phrase": "** The `all_data_points` field is missing. Due to the absence of numerous key data points, it's impossible to verify consistency with legal documentation.",
+      "character_count": 154,
+      "violation_comment": "[PROSP_008] *   **Description:** All data must be consistent with legal documentation (KID, Prospectus, SFDR Annex)\n    *   **Finding:** The `all_data_points` field is missing. Due to the absence of numerous key data points, it's impossible to verify consistency with legal documentation.\n    *   **Evidence from",
+      "required_action": "** Ensure all data points presented in the document are consistent with the fund's KID, Prospectus, and SFDR Annex."
+    },
+    {
+      "rule_id": "PROSP_009",
+      "severity": "critical",
+      "location": "ranges must match prospectus thresholds",
+      "page_number": 1,
+      "exact_phrase": "** The `asset_allocation`, `equity_percentage`, `bond_percentage`, and `cash_percentage` fields are missing.",
+      "character_count": 108,
+      "violation_comment": "[PROSP_009] *   **Description:** Asset allocation ranges must match prospectus thresholds\n    *   **Finding:** The `asset_allocation`, `equity_percentage`, `bond_percentage`, and `cash_percentage` fields are missing.\n    *   **Evidence from Document:** The document does not provide any information on asset allo",
+      "required_action": "** Include specific asset allocation ranges and percentages, consistent with the fund's prospectus."
+    },
+    {
+      "rule_id": "PROSP_010",
+      "severity": "critical",
+      "location": "must match prospectus specifications",
+      "page_number": 1,
+      "exact_phrase": "** The `geographic_allocation` and `regional_exposure` fields are missing.",
+      "character_count": 74,
+      "violation_comment": "[PROSP_010] *   **Description:** Geographic allocation must match prospectus specifications\n    *   **Finding:** The `geographic_allocation` and `regional_exposure` fields are missing.\n    *   **Evidence from Document:** The document mentions a US equity focus but lacks specific details on geographic allocation",
+      "required_action": "** Provide detailed information on geographic allocation and regional exposure, consistent with the fund's prospectus."
+    },
+    {
+      "rule_id": "PROSP_011",
+      "severity": "critical",
+      "location": "document-wide",
+      "page_number": 1,
+      "exact_phrase": "** The `investment_objective` and `fund_objective` fields are missing.",
+      "character_count": 70,
+      "violation_comment": "[PROSP_011] *   **Description:** Investment objective must match prospectus exactly\n    *   **Finding:** The `investment_objective` and `fund_objective` fields are missing.\n    *   **Evidence from Document:** The document does not explicitly state the investment objective.\n    *   **Required Action:** Clearly s",
+      "required_action": "** Clearly state the fund's investment objective, exactly as it is defined in the prospectus."
+    },
+    {
+      "rule_id": "PROSP_013",
+      "severity": "critical",
+      "location": "document-wide",
+      "page_number": 1,
+      "exact_phrase": "** The `management_fees` and `ongoing_charges` fields are missing.",
+      "character_count": 66,
+      "violation_comment": "[PROSP_013] *   **Description:** Management fees must match prospectus\n    *   **Finding:** The `management_fees` and `ongoing_charges` fields are missing.\n    *   **Evidence from Document:** The document does not mention any fees.\n    *   **Required Action:** Clearly state the management fees and ongoing charg",
+      "required_action": "** Clearly state the management fees and ongoing charges, consistent with the fund's prospectus."
+    },
+    {
+      "rule_id": "PROSP_001",
+      "severity": "minor",
+      "location": "ranges, geographic allocation details, and the minimum investment amount. This information must be consistent with the fund's legal documentation (prospectus).",
+      "page_number": 1,
+      "exact_phrase": "** Multiple fields related to investment strategy are missing: `investment_strategy`, `investment_thresholds`, `asset_allocation`, `geographic_allocation`, and `minimum_investment`.",
+      "character_count": 181,
+      "violation_comment": "[PROSP_001] *   **Description:** Investment strategy must be presented in conformity with legal documentation\n    *   **Finding:** Multiple fields related to investment strategy are missing: `investment_strategy`, `investment_thresholds`, `asset_allocation`, `geographic_allocation`, and `minimum_investment`.\n  ",
+      "required_action": "** Provide a detailed description of the investment strategy, including specific investment thresholds, asset allocation ranges, geographic allocation details, and the minimum investment amount. This information must be consistent with the fund's legal documentation (prospectus)."
+    },
+    {
+      "rule_id": "PROSP_002",
+      "severity": "minor",
+      "location": "document-wide",
+      "page_number": 1,
+      "exact_phrase": "** The `risk_profile` field is missing. While the document mentions \"Main Risks,\" it lacks a comprehensive risk profile. The SRI field is also missing.",
+      "character_count": 151,
+      "violation_comment": "[PROSP_002] *   **Description:** Risk profile must be exhaustive and conform to prospectus\n    *   **Finding:** The `risk_profile` field is missing. While the document mentions \"Main Risks,\" it lacks a comprehensive risk profile. The SRI field is also missing.\n    *   **Evidence from Document:** The document li",
+      "required_action": "** Include a complete and detailed risk profile, consistent with the fund's prospectus. This should include a clear explanation of each risk factor and the SRI indicator."
+    },
+    {
+      "rule_id": "PROSP_003",
+      "severity": "minor",
+      "location": "document-wide",
+      "page_number": 1,
+      "exact_phrase": "** The `sri` field does not exist in the provided document excerpt.",
+      "character_count": 67,
+      "violation_comment": "[PROSP_003] *   **Description:** SRI must match prospectus exactly with disclaimer on same slide\n    *   **Finding:** The `sri` field does not exist in the provided document excerpt.\n    *   **Evidence from Document:** The field 'sri' does not exist in the provided document excerpt.\n    *   **Required Action:**",
+      "required_action": "** The Synthetic Risk Indicator (SRI X/7) must be displayed exactly as in prospectus with associated disclaimer"
+    },
+    {
+      "rule_id": "PROSP_004",
+      "severity": "minor",
+      "location": "document-wide",
+      "page_number": 1,
+      "exact_phrase": "** The `benchmark` and `reference_indicator` fields are missing.",
+      "character_count": 64,
+      "violation_comment": "[PROSP_004] *   **Description:** Performance benchmark must be the official one from prospectus\n    *   **Finding:** The `benchmark` and `reference_indicator` fields are missing.\n    *   **Evidence from Document:** The document does not explicitly mention a benchmark.\n    *   **Required Action:** Clearly state ",
+      "required_action": "** Clearly state the official performance benchmark as defined in the fund's prospectus."
+    },
+    {
+      "rule_id": "PROSP_006",
+      "severity": "minor",
+      "location": "document-wide",
+      "page_number": 1,
+      "exact_phrase": "** The `performance_target` and `investment_objective` fields are missing.",
+      "character_count": 74,
+      "violation_comment": "[PROSP_006] *   **Description:** Performance target must match if defined in prospectus objective\n    *   **Finding:** The `performance_target` and `investment_objective` fields are missing.\n    *   **Evidence from Document:** The document does not specify a performance target or investment objective.\n    *   *",
+      "required_action": "** If the fund has a performance target (e.g., outperformance objective), it must be clearly stated and consistent with the prospectus. The investment objective must also be clearly stated."
+    },
+    {
+      "rule_id": "PROSP_008",
+      "severity": "minor",
+      "location": "document-wide",
+      "page_number": 1,
+      "exact_phrase": "** The `all_data_points` field is missing. Due to the absence of numerous key data points, it's impossible to verify consistency with legal documentation.",
+      "character_count": 154,
+      "violation_comment": "[PROSP_008] *   **Description:** All data must be consistent with legal documentation (KID, Prospectus, SFDR Annex)\n    *   **Finding:** The `all_data_points` field is missing. Due to the absence of numerous key data points, it's impossible to verify consistency with legal documentation.\n    *   **Evidence from",
+      "required_action": "** Ensure all data points presented in the document are consistent with the fund's KID, Prospectus, and SFDR Annex."
+    },
+    {
+      "rule_id": "PROSP_009",
+      "severity": "minor",
+      "location": "ranges must match prospectus thresholds",
+      "page_number": 1,
+      "exact_phrase": "** The `asset_allocation`, `equity_percentage`, `bond_percentage`, and `cash_percentage` fields are missing.",
+      "character_count": 108,
+      "violation_comment": "[PROSP_009] *   **Description:** Asset allocation ranges must match prospectus thresholds\n    *   **Finding:** The `asset_allocation`, `equity_percentage`, `bond_percentage`, and `cash_percentage` fields are missing.\n    *   **Evidence from Document:** The document does not provide any information on asset allo",
+      "required_action": "** Include specific asset allocation ranges and percentages, consistent with the fund's prospectus."
+    },
+    {
+      "rule_id": "PROSP_010",
+      "severity": "minor",
+      "location": "must match prospectus specifications",
+      "page_number": 1,
+      "exact_phrase": "** The `geographic_allocation` and `regional_exposure` fields are missing.",
+      "character_count": 74,
+      "violation_comment": "[PROSP_010] *   **Description:** Geographic allocation must match prospectus specifications\n    *   **Finding:** The `geographic_allocation` and `regional_exposure` fields are missing.\n    *   **Evidence from Document:** The document mentions a US equity focus but lacks specific details on geographic allocation",
+      "required_action": "** Provide detailed information on geographic allocation and regional exposure, consistent with the fund's prospectus."
+    },
+    {
+      "rule_id": "PROSP_011",
+      "severity": "minor",
+      "location": "document-wide",
+      "page_number": 1,
+      "exact_phrase": "** The `investment_objective` and `fund_objective` fields are missing.",
+      "character_count": 70,
+      "violation_comment": "[PROSP_011] *   **Description:** Investment objective must match prospectus exactly\n    *   **Finding:** The `investment_objective` and `fund_objective` fields are missing.\n    *   **Evidence from Document:** The document does not explicitly state the investment objective.\n    *   **Required Action:** Clearly s",
+      "required_action": "** Clearly state the fund's investment objective, exactly as it is defined in the prospectus."
+    },
+    {
+      "rule_id": "PROSP_013",
+      "severity": "minor",
+      "location": "document-wide",
+      "page_number": 1,
+      "exact_phrase": "** The `management_fees` and `ongoing_charges` fields are missing.",
+      "character_count": 66,
+      "violation_comment": "[PROSP_013] *   **Description:** Management fees must match prospectus\n    *   **Finding:** The `management_fees` and `ongoing_charges` fields are missing.\n    *   **Evidence from Document:** The document does not mention any fees.\n    *   **Required Action:** Clearly state the management fees and ongoing charg",
+      "required_action": "** Clearly state the management fees and ongoing charges, consistent with the fund's prospectus."
+    },
+    {
+      "rule_id": "PROSP_005",
+      "severity": "minor",
+      "location": "document-wide",
+      "page_number": 1,
+      "exact_phrase": "** The `benchmark_specification` field is missing.",
+      "character_count": 50,
+      "violation_comment": "[PROSP_005] *   **Description:** Benchmark specifications must match prospectus terms\n    *   **Finding:** The `benchmark_specification` field is missing.\n    *   **Evidence from Document:** The document does not provide any benchmark specifications.\n    *   **Required Action:** Include detailed benchmark speci",
+      "required_action": "** Include detailed benchmark specifications, consistent with the fund's prospectus."
+    },
+    {
+      "rule_id": "PROSP_007",
+      "severity": "minor",
+      "location": "document-wide",
+      "page_number": 1,
+      "exact_phrase": "** The `portfolio_holdings` and `number_of_lines` fields are missing.",
+      "character_count": 69,
+      "violation_comment": "[PROSP_007] *   **Description:** Portfolio holdings count must be in prospectu\n    *   **Finding:** The `portfolio_holdings` and `number_of_lines` fields are missing.\n    *   **Evidence from Document:** The document does not provide any information on portfolio holdings.\n    *   **Required Action:** Include inf",
+      "required_action": "** Include information on portfolio holdings, consistent with the fund's prospectus."
+    },
+    {
+      "rule_id": "PROSP_012",
+      "severity": "minor",
+      "location": "document-wide",
+      "page_number": 1,
+      "exact_phrase": "** The `minimum_investment` and `minimum_subscription` fields are missing.",
+      "character_count": 74,
+      "violation_comment": "[PROSP_012] *   **Description:** Minimum investment amount must match prospectus\n    *   **Finding:** The `minimum_investment` and `minimum_subscription` fields are missing.\n    *   **Evidence from Document:** The document does not mention the minimum investment amount.\n    *   **Required Action:** Clearly stat",
+      "required_action": "** Clearly state the minimum investment amount, consistent with the fund's prospectus."
+    },
+    {
+      "rule_id": "PROSP_014",
+      "severity": "minor",
+      "location": "document-wide",
+      "page_number": 1,
+      "exact_phrase": "** The `fund_characteristics` field is missing.",
+      "character_count": 47,
+      "violation_comment": "[PROSP_014] *   **Description:** Fund characteristics\n    *   **Finding:** The `fund_characteristics` field is missing.\n    *   **Evidence from Document:** The document does not provide any fund characteristics.\n    *   **Required Action:** Include fund characteristics.\n\n## 4. MINOR ISSUES\n\n*   None identified.",
+      "required_action": "** Include fund characteristics."
+    },
+    {
+      "rule_id": "PROSP_001",
+      "severity": "critical",
+      "location": "document-wide",
+      "page_number": 1,
+      "exact_phrase": "Field check: ['investment_strategy', 'investment_thresholds', 'asset_allocation', 'geographic_allocation', 'minimum_investment']",
+      "character_count": 0,
+      "violation_comment": "[PROSP_001] investment_strategy: MISSING - Field does not exist\ninvestment_thresholds: MISSING - Field does not exist\nasset_allocation: MISSING - Field does not exist\ngeographic_allocation: MISSING - Field does n",
+      "required_action": "Populate the required field with appropriate data"
+    },
+    {
+      "rule_id": "PROSP_002",
+      "severity": "critical",
+      "location": "document-wide",
+      "page_number": 1,
+      "exact_phrase": "Field check: ['risk_profile', 'sri']",
+      "character_count": 0,
+      "violation_comment": "[PROSP_002] risk_profile: MISSING - Field does not exist in the provided document excerpt.\n\nsri: FOUND - Field exists with data, although it's not a direct field in the JSON structure, the text mentions \"The summ",
+      "required_action": "Populate the required field with appropriate data"
+    },
+    {
+      "rule_id": "PROSP_003",
+      "severity": "critical",
+      "location": "document-wide",
+      "page_number": 1,
+      "exact_phrase": "Field check: ['sri']",
+      "character_count": 0,
+      "violation_comment": "[PROSP_003] sri: MISSING - The field 'sri' does not exist in the provided document excerpt.",
+      "required_action": "Populate the required field with appropriate data"
+    },
+    {
+      "rule_id": "PROSP_004",
+      "severity": "critical",
+      "location": "document-wide",
+      "page_number": 1,
+      "exact_phrase": "Field check: ['benchmark', 'reference_indicator']",
+      "character_count": 0,
+      "violation_comment": "[PROSP_004] benchmark: MISSING - Field does not exist\nreference_indicator: MISSING - Field does not exist",
+      "required_action": "Populate the required field with appropriate data"
+    },
+    {
+      "rule_id": "PROSP_005",
+      "severity": "major",
+      "location": "document-wide",
+      "page_number": 1,
+      "exact_phrase": "Field check: ['benchmark_specification']",
+      "character_count": 0,
+      "violation_comment": "[PROSP_005] benchmark_specification: MISSING - Field does not exist",
+      "required_action": "Populate the required field with appropriate data"
+    },
+    {
+      "rule_id": "PROSP_006",
+      "severity": "critical",
+      "location": "document-wide",
+      "page_number": 1,
+      "exact_phrase": "Field check: ['performance_target', 'investment_objective']",
+      "character_count": 0,
+      "violation_comment": "[PROSP_006] performance_target: MISSING - Field does not exist\ninvestment_objective: MISSING - Field does not exist",
+      "required_action": "Populate the required field with appropriate data"
+    },
+    {
+      "rule_id": "PROSP_007",
+      "severity": "major",
+      "location": "document-wide",
+      "page_number": 1,
+      "exact_phrase": "Field check: ['portfolio_holdings', 'number_of_lines']",
+      "character_count": 0,
+      "violation_comment": "[PROSP_007] portfolio_holdings: MISSING - Field does not exist\nnumber_of_lines: MISSING - Field does not exist",
+      "required_action": "Populate the required field with appropriate data"
+    },
+    {
+      "rule_id": "PROSP_008",
+      "severity": "critical",
+      "location": "document-wide",
+      "page_number": 1,
+      "exact_phrase": "Field check: ['all_data_points']",
+      "character_count": 0,
+      "violation_comment": "[PROSP_008] all_data_points: MISSING - Field does not exist",
+      "required_action": "Populate the required field with appropriate data"
+    },
+    {
+      "rule_id": "PROSP_009",
+      "severity": "critical",
+      "location": "document-wide",
+      "page_number": 1,
+      "exact_phrase": "Field check: ['asset_allocation', 'equity_percentage', 'bond_percentage', 'cash_percentage']",
+      "character_count": 0,
+      "violation_comment": "[PROSP_009] asset_allocation: MISSING - Field does not exist\nequity_percentage: MISSING - Field does not exist\nbond_percentage: MISSING - Field does not exist\ncash_percentage: MISSING - Field does not exist",
+      "required_action": "Populate the required field with appropriate data"
+    },
+    {
+      "rule_id": "PROSP_010",
+      "severity": "critical",
+      "location": "document-wide",
+      "page_number": 1,
+      "exact_phrase": "Field check: ['geographic_allocation', 'regional_exposure']",
+      "character_count": 0,
+      "violation_comment": "[PROSP_010] geographic_allocation: MISSING - Field does not exist\nregional_exposure: MISSING - Field does not exist",
+      "required_action": "Populate the required field with appropriate data"
+    },
+    {
+      "rule_id": "PROSP_011",
+      "severity": "critical",
+      "location": "document-wide",
+      "page_number": 1,
+      "exact_phrase": "Field check: ['investment_objective', 'fund_objective']",
+      "character_count": 0,
+      "violation_comment": "[PROSP_011] investment_objective: MISSING - Field does not exist\nfund_objective: MISSING - Field does not exist",
+      "required_action": "Populate the required field with appropriate data"
+    },
+    {
+      "rule_id": "PROSP_012",
+      "severity": "major",
+      "location": "document-wide",
+      "page_number": 1,
+      "exact_phrase": "Field check: ['minimum_investment', 'minimum_subscription']",
+      "character_count": 0,
+      "violation_comment": "[PROSP_012] minimum_investment: MISSING - Field does not exist\nminimum_subscription: MISSING - Field does not exist",
+      "required_action": "Populate the required field with appropriate data"
+    },
+    {
+      "rule_id": "PROSP_013",
+      "severity": "critical",
+      "location": "document-wide",
+      "page_number": 1,
+      "exact_phrase": "Field check: ['management_fees', 'ongoing_charges']",
+      "character_count": 0,
+      "violation_comment": "[PROSP_013] management_fees: MISSING - Field does not exist\nongoing_charges: MISSING - Field does not exist",
+      "required_action": "Populate the required field with appropriate data"
+    },
+    {
+      "rule_id": "PROSP_014",
+      "severity": "major",
+      "location": "document-wide",
+      "page_number": 1,
+      "exact_phrase": "Field check: ['fund_characteristics']",
+      "character_count": 0,
+      "violation_comment": "[PROSP_014] fund_characteristics: MISSING - Field does not exist",
+      "required_action": "Populate the required field with appropriate data"
+    }
+  ],
+  "summary": {
+    "total_violations": 38,
+    "critical_violations": 20,
+    "major_violations": 4,
+    "minor_violations": 14
+  },
+  "instructions": "Use this file to highlight violations in the document. Each annotation contains the exact location, phrase, and violation details for commenting."
+}

@@ -1,0 +1,101 @@
+{
+  "document_annotations": [
+    {
+      "rule_id": "REG_FIELD_MISSING",
+      "severity": "major",
+      "location": "metadata",
+      "page_number": 6,
+      "exact_phrase": "Field 'metadata.fund_isin' is empty",
+      "character_count": 0,
+      "violation_comment": "[REG_FIELD_MISSING] Required field 'metadata.fund_isin' is missing or empty",
+      "required_action": "Populate the 'metadata.fund_isin' field with appropriate data"
+    },
+    {
+      "rule_id": "REG_FIELD_MISSING",
+      "severity": "major",
+      "location": "metadata",
+      "page_number": 6,
+      "exact_phrase": "Field 'metadata.language' is empty",
+      "character_count": 0,
+      "violation_comment": "[REG_FIELD_MISSING] Required field 'metadata.language' is missing or empty",
+      "required_action": "Populate the 'metadata.language' field with appropriate data"
+    },
+    {
+      "rule_id": "REG_FIELD_MISSING",
+      "severity": "major",
+      "location": "metadata",
+      "page_number": 6,
+      "exact_phrase": "Field 'metadata.country' is empty",
+      "character_count": 0,
+      "violation_comment": "[REG_FIELD_MISSING] Required field 'metadata.country' is missing or empty",
+      "required_action": "Populate the 'metadata.country' field with appropriate data"
+    },
+    {
+      "rule_id": "REG_FIELD_MISSING",
+      "severity": "major",
+      "location": "metadata",
+      "page_number": 6,
+      "exact_phrase": "Field 'metadata.fund_esg_classification' is empty",
+      "character_count": 0,
+      "violation_comment": "[REG_FIELD_MISSING] Required field 'metadata.fund_esg_classification' is missing or empty",
+      "required_action": "Populate the 'metadata.fund_esg_classification' field with appropriate data"
+    },
+    {
+      "rule_id": "REG_DISCLAIMER_6_KID_PROSPECTUS",
+      "severity": "major",
+      "location": "document-wide",
+      "page_number": null,
+      "exact_phrase": "Missing: 6 Kid Prospectus",
+      "character_count": 0,
+      "violation_comment": "[DISCLAIMER_6_KID_PROSPECTUS] Mandatory disclaimer missing: 6 Kid Prospectus",
+      "required_action": "Add the required 6 Kid Prospectus disclaimer to the document"
+    },
+    {
+      "rule_id": "REG_DISCLAIMER_7_AMF_APPROVAL",
+      "severity": "major",
+      "location": "document-wide",
+      "page_number": null,
+      "exact_phrase": "Missing: 7 Amf Approval",
+      "character_count": 0,
+      "violation_comment": "[DISCLAIMER_7_AMF_APPROVAL] Mandatory disclaimer missing: 7 Amf Approval",
+      "required_action": "Add the required 7 Amf Approval disclaimer to the document"
+    },
+    {
+      "rule_id": "REG_DISCLAIMER_8_INVESTOR_RIGHTS",
+      "severity": "major",
+      "location": "document-wide",
+      "page_number": null,
+      "exact_phrase": "Missing: 8 Investor Rights",
+      "character_count": 0,
+      "violation_comment": "[DISCLAIMER_8_INVESTOR_RIGHTS] Mandatory disclaimer missing: 8 Investor Rights",
+      "required_action": "Add the required 8 Investor Rights disclaimer to the document"
+    },
+    {
+      "rule_id": "REG_DISCLAIMER_9_COMPLAINTS",
+      "severity": "major",
+      "location": "document-wide",
+      "page_number": null,
+      "exact_phrase": "Missing: 9 Complaints",
+      "character_count": 0,
+      "violation_comment": "[DISCLAIMER_9_COMPLAINTS] Mandatory disclaimer missing: 9 Complaints",
+      "required_action": "Add the required 9 Complaints disclaimer to the document"
+    },
+    {
+      "rule_id": "REG_DISCLAIMER_10_DISTRIBUTION_WITHDRAWAL",
+      "severity": "major",
+      "location": "document-wide",
+      "page_number": null,
+      "exact_phrase": "Missing: 10 Distribution Withdrawal",
+      "character_count": 0,
+      "violation_comment": "[DISCLAIMER_10_DISTRIBUTION_WITHDRAWAL] Mandatory disclaimer missing: 10 Distribution Withdrawal",
+      "required_action": "Add the required 10 Distribution Withdrawal disclaimer to the document"
+    }
+  ],
+  "summary": {
+    "total_violations": 9,
+    "critical_violations": 0,
+    "major_violations": 9,
+    "minor_violations": 0
+  },
+  "instructions": "Use this file to highlight violations in the document. Each annotation contains the exact location, phrase, and violation details for commenting."
+}

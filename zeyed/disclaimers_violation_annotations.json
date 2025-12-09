@@ -1,0 +1,81 @@
+{
+  "document_annotations": [
+    {
+      "rule_id": "DISC_CONTEXT_SFDR_ART.6",
+      "severity": "major",
+      "location": "page_de_garde",
+      "page_number": 1,
+      "exact_phrase": "Missing contextual disclaimer: SFDR ART.6",
+      "character_count": 0,
+      "violation_comment": "[DISC_CONTEXT] Contextual disclaimer missing for: SFDR mentioned. Coverage: 66%",
+      "required_action": "Add required disclaimer for SFDR ART.6 since document contains: SFDR mentioned"
+    },
+    {
+      "rule_id": "DISC_ADDITIONAL_GERMANY-SPECIFIC_DIS",
+      "severity": "major",
+      "location": "page_de_fin",
+      "page_number": 6,
+      "exact_phrase": "Missing additional disclaimer: Germany-specific disclaimer",
+      "character_count": 0,
+      "violation_comment": "[DISC_ADDITIONAL] Additional disclaimer missing: Germany-specific disclaimer. Coverage: 20%",
+      "required_action": "Add required disclaimer for: Germany-specific disclaimer"
+    },
+    {
+      "rule_id": "DISC_CONSISTENCY_INCOMPLETE_METADATA",
+      "severity": "critical",
+      "location": "metadata",
+      "page_number": 6,
+      "exact_phrase": "Consistency issue: client_type",
+      "character_count": 0,
+      "violation_comment": "[DISC_CONSISTENCY] Metadata field \"client_type\" is empty",
+      "required_action": "Fix consistency issue in field: client_type"
+    },
+    {
+      "rule_id": "DISC_CONSISTENCY_INCOMPLETE_METADATA",
+      "severity": "critical",
+      "location": "metadata",
+      "page_number": 6,
+      "exact_phrase": "Consistency issue: language",
+      "character_count": 0,
+      "violation_comment": "[DISC_CONSISTENCY] Metadata field \"language\" is empty",
+      "required_action": "Fix consistency issue in field: language"
+    },
+    {
+      "rule_id": "DISC_CONSISTENCY_INCOMPLETE_METADATA",
+      "severity": "critical",
+      "location": "metadata",
+      "page_number": 6,
+      "exact_phrase": "Consistency issue: country",
+      "character_count": 0,
+      "violation_comment": "[DISC_CONSISTENCY] Metadata field \"country\" is empty",
+      "required_action": "Fix consistency issue in field: country"
+    },
+    {
+      "rule_id": "DISC_CONSISTENCY_INCOMPLETE_METADATA",
+      "severity": "critical",
+      "location": "metadata",
+      "page_number": 6,
+      "exact_phrase": "Consistency issue: fund_isin",
+      "character_count": 0,
+      "violation_comment": "[DISC_CONSISTENCY] Metadata field \"fund_isin\" is empty",
+      "required_action": "Fix consistency issue in field: fund_isin"
+    },
+    {
+      "rule_id": "DISC_CONSISTENCY_INCONSISTENCY",
+      "severity": "minor",
+      "location": "page_de_fin",
+      "page_number": 6,
+      "exact_phrase": "Consistency issue: belgium_distribution",
+      "character_count": 0,
+      "violation_comment": "[DISC_CONSISTENCY] Disclaimer mentions Belgium but Belgium not listed in distribution countries",
+      "required_action": "Fix consistency issue in field: belgium_distribution"
+    }
+  ],
+  "summary": {
+    "total_violations": 7,
+    "critical_violations": 4,
+    "major_violations": 2,
+    "minor_violations": 1
+  },
+  "instructions": "Use this file to highlight violations in the document. Each annotation contains the exact location, phrase, and violation details for commenting."
+}

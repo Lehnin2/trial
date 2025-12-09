@@ -1,0 +1,21 @@
+{
+  "document_annotations": [
+    {
+      "rule_id": "VAL_015",
+      "severity": "info",
+      "location": "Document-wide",
+      "page_number": null,
+      "exact_phrase": "COMPLIANT\n\nJustification: The document excerpt appears to provide factual information about the EU Sustainable Finance Disclosure Regulation (SFDR), the management team's approach to sustainability ri",
+      "character_count": 200,
+      "violation_comment": "[VAL_015] Factual Information Allowed - COMPLIANT\n\nJustification: The document excerpt appears to provide factual information about the EU Sustainable Finance Disclosure Regulation (SFDR), the management team's approach to sustainability ri",
+      "required_action": "Review and revise content to comply with VAL_015"
+    }
+  ],
+  "summary": {
+    "total_violations": 1,
+    "critical_violations": 0,
+    "major_violations": 0,
+    "minor_violations": 0
+  },
+  "instructions": "Use this file to highlight violations in the document. Each annotation contains the exact location, phrase, and violation details for commenting."
+}

@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv/
+ENV/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files (contains API keys - DO NOT COMMIT)
+.env
+backend/.env
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build outputs
+build/
+dist/
+*.egg-info/
+
+# Logs
+logs/
+*.log
+backend/logs/
+
+# Generated files (can be regenerated)
+backend/*_validation_report.txt
+backend/*_violation_annotations.json
+backend/compliance_report_*.md
+
+# Uploads and results (user data)
+backend/uploads/
+backend/results/
+
+# Cache
+.cache/
+*.cache

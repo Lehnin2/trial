@@ -1,0 +1,12 @@
+{
+    "Le document fait-il référence à un nouveau Produit": false,
+    "Le client est-il un professionnel": true,
+    "Société de Gestion": "ODDO BHF Asset Management",
+    "Est ce que le produit fait partie de la Sicav d'Oddo": true,
+    "Le document fait-il référence à une nouvelle Stratégie": false,
+    "fund_name": "ODDO BHF US Equity Active ETF",
+    "fund_isin": "LU1234567890",
+    "client_type": "professional",
+    "language": "FR",
+    "document_date": "2025-08-31"
+}

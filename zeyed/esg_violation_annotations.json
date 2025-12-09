@@ -1,0 +1,101 @@
+{
+  "document_annotations": [
+    {
+      "rule_id": "ESG_001",
+      "severity": "critical",
+      "location": "document_metadata",
+      "page_number": null,
+      "exact_phrase": "There is no explicit ESG classification provided in the document metadata.",
+      "character_count": 0,
+      "violation_comment": "[ESG_001] The document lacks a clear ESG classification (e.g., Article 6, 8, or 9) in its metadata, which is a requirement for compliance. The document mentions SFDR and related articles but does not declare a specific classification for the fund itself.",
+      "required_action": "Review and correct violation"
+    },
+    {
+      "rule_id": "ESG_004",
+      "severity": "critical",
+      "location": "slide_1",
+      "page_number": 1,
+      "exact_phrase": "Article 6: The management team does not consider sustainability risks or adverse effects of investment decisions on sustainability factors in the investment decision making process. Article 8: The management team addresses sustainability risks by integrating ESG criteria (Environment and/or Social and/or Governance) into its investment decision making process. Article 9: The management team follows a strict sustainable investment objective that significantly contributes to the challenges of the ecological transition, and addresses Sustainability Risks through ratings provided by the Management Company’s external ESG data provider.",
+      "character_count": 655,
+      "violation_comment": "[ESG_004] The document mentions Article 6, 8 and 9. If the fund is classified as Prospectus-Limited, this is a violation.",
+      "required_action": "Review and correct violation"
+    },
+    {
+      "rule_id": "ESG_CONTENT_DETECTED",
+      "severity": "warning",
+      "location": "slide_1",
+      "page_number": 1,
+      "exact_phrase": "1 The EU Sustainable Finance Disclosure Regulation (SFDR) is a set of EU rules which aim to make the sustainability profile of funds transparent, more comparable and better understood by end investors.",
+      "character_count": 201,
+      "violation_comment": "ESG keyword 'SFDR' detected - May violate ESG content restrictions depending on fund classification",
+      "required_action": "Review if this ESG content is allowed based on fund classification"
+    },
+    {
+      "rule_id": "ESG_CONTENT_DETECTED",
+      "severity": "warning",
+      "location": "slide_1",
+      "page_number": 1,
+      "exact_phrase": "Article 8: The management team addresses sustainability risks by integrating ESG criteria (Environment and/or Social and/or Governance) into its investment decision making process.",
+      "character_count": 180,
+      "violation_comment": "ESG keyword 'Article 8' detected - May violate ESG content restrictions depending on fund classification",
+      "required_action": "Review if this ESG content is allowed based on fund classification"
+    },
+    {
+      "rule_id": "ESG_CONTENT_DETECTED",
+      "severity": "warning",
+      "location": "slide_1",
+      "page_number": 1,
+      "exact_phrase": "Article 9: The management team follows a strict sustainable investment objective that significantly contributes to the challenges of the ecological transition, and addresses Sustainability Risks through ratings provided by the Management Company’s external ESG data provider.",
+      "character_count": 275,
+      "violation_comment": "ESG keyword 'Article 9' detected - May violate ESG content restrictions depending on fund classification",
+      "required_action": "Review if this ESG content is allowed based on fund classification"
+    },
+    {
+      "rule_id": "ESG_CONTENT_DETECTED",
+      "severity": "warning",
+      "location": "slide_1",
+      "page_number": 1,
+      "exact_phrase": "Article 8: The management team addresses sustainability risks by integrating ESG criteria (Environment and/or Social and/or Governance) into its investment decision making process.",
+      "character_count": 180,
+      "violation_comment": "ESG keyword 'ESG' detected - May violate ESG content restrictions depending on fund classification",
+      "required_action": "Review if this ESG content is allowed based on fund classification"
+    },
+    {
+      "rule_id": "ESG_CONTENT_DETECTED",
+      "severity": "warning",
+      "location": "slide_2",
+      "page_number": 2,
+      "exact_phrase": "Integration of ESG",
+      "character_count": 18,
+      "violation_comment": "ESG keyword 'ESG' detected - May violate ESG content restrictions depending on fund classification",
+      "required_action": "Review if this ESG content is allowed based on fund classification"
+    },
+    {
+      "rule_id": "ESG_CONTENT_DETECTED",
+      "severity": "warning",
+      "location": "slide_5",
+      "page_number": 5,
+      "exact_phrase": "Environmental, Social and Governance Standards",
+      "character_count": 46,
+      "violation_comment": "ESG keyword 'ESG' detected - May violate ESG content restrictions depending on fund classification",
+      "required_action": "Review if this ESG content is allowed based on fund classification"
+    },
+    {
+      "rule_id": "ESG_003",
+      "severity": "major",
+      "location": "slide_1",
+      "page_number": 1,
+      "exact_phrase": "1 The EU Sustainable Finance Disclosure Regulation (SFDR) is a set of EU rules which aim to make the sustainability profile of funds transparent, more comparable and better understood by end investors...",
+      "character_count": 655,
+      "violation_comment": "[ESG_003] ESG content block (655 chars) - Contributes to total ESG volume of 7.3%",
+      "required_action": "Reduce ESG content if total exceeds 10% threshold for 'Reduced' classification"
+    }
+  ],
+  "summary": {
+    "total_violations": 2,
+    "critical_violations": 2,
+    "major_violations": 0,
+    "minor_violations": 0
+  },
+  "instructions": "Use this file to highlight violations in the document. Each annotation contains the exact location, phrase, and violation details for commenting."
+}
