@@ -1,0 +1,478 @@
+{
+  "document_metadata": {
+    "document_type": "fund_presentation",
+    "document_name": "ODDO BHF US Equity Active UCITS ETF",
+    "creation_date": "2025-11-19",
+    "validation_date": "2025-08-31",
+    "version": "1.0",
+    "client_type": "retail",
+    "language": "",
+    "country": "",
+    "page_count": 6,
+    "validated_by": "ODDO BHF AM",
+    "fund_esg_classification": "Article 6, Article 8, Article 9",
+    "fund_isin": "",
+    "fund_type": "UCITS ETF",
+    "management_company": "ODDO BHF ASSET MANAGEMENT SAS"
+  },
+  "page_de_garde": {
+    "slide_number": 1,
+    "slide_title": "",
+    "content": {
+      "fund_name": "ODDO BHF US Equity Active UCITS ETF",
+      "management_company": "ODDO BHF AM",
+      "promotional_document_mention": "",
+      "target_audience": "",
+      "date": "October 2025",
+      "tagline": "An investment solution aiming at investing efficiently in US equities",
+      "disclaimer_text": "There is no guarantee that the management objectives in terms of risk will actually be met. The risk indicator assumes you keep the product until the end of the recommended holding period. The actual risk can vary significantly if you cash in at an early stage and you may get back less.",
+      "legal_notice_sgp": "",
+      "additional_text": "1 The EU Sustainable Finance Disclosure Regulation (SFDR) is a set of EU rules which aim to make the sustainability profile of funds transparent, more comparable and better understood by end investors. Article 6: The management team does not consider sustainability risks or adverse effects of investment decisions on sustainability factors in the investment decision making process. Article 8: The management team addresses sustainability risks by integrating ESG criteria (Environment and/or Social and/or Governance) into its investment decision making process. Article 9: The management team follows a strict sustainable investment objective that significantly contributes to the challenges of the ecological transition, and addresses Sustainability Risks through ratings provided by the Management Company’s external ESG data provider. | 2 The summary risk indicator (SRI) is a guide to the level of risk of this product compared to other products. It shows how likely it is that the product will lose money because of movements in the markets or because we are not able to pay you. It scales in a range from 1 (lowest risk) to 7 (highest risk). The lowest category does not mean a risk-free investment. This indicator is not constant and is updated if the risk profile of the fund changes over time. Historical data, such as is used to calculate the risk indicator, may not be a reliable indication of the future risk profile of the Fund. The active ETF offers investors an efficient access to the growth potential of US equities through a disciplined, quantitative strategy built on momentum. US equity focus: the fund invests mainly in a dynamic universe of US companies from the S&P 500, across sectors and industries Proprietary quantitative model: the investment process is driven by a smart momentum strategy analysing extensive historical data with to goal to detect stable trends in the market Disciplined approach: by relying on a rule-based model rather than discretionary judgment, the fund avoids emotional biases and ensures consistency across market cycles Diversification & risk management: The portfolio construction process involves a strong focus on diversification and risk management by applying various constraints Cost-Efficiency: Enjoy a cost-effective, actively managed equity solution to achieve long term capital growth. Launched in 2025. Assets under management $ 5M. Main Risks : ODDO BHF US Equity Active UCITS ETF is principally exposed to the following risks: Investment Strategy Risk, Active Management Risk, Quantitative Model Risk, Secondary Market Trading Risk, Concentration Risk. For more details about risks, please refer to page 5 of this document. Source: ODDO BHF AM | Data as of 31/08/2025"
+    }
+  },
+  "slide_2": {
+    "slide_number": 2,
+    "slide_title": "",
+    "content": {
+      "standard_disclaimer_retail": {
+        "text": "Source: ODDO BHF AM SAS",
+        "font_size": null,
+        "font_bold": false,
+        "visible": true
+      },
+      "additional_disclaimers": [],
+      "all_risks_listed": [],
+      "tables": []
+    }
+  },
+  "pages_suivantes": [
+    {
+      "slide_number": 3,
+      "slide_title": "Why invest in the USA?",
+      "content": {
+        "main_text": "A key component of any equity portfolio",
+        "bullet_points": [
+          "World’s largest economy",
+          "Home to many world-leading technology companies and innovative start-ups.",
+          "Access to big success stories from both the new and old economy",
+          "Major Financial Market",
+          "Innovation & Diversification",
+          "Sheer Size of the Country",
+          "Historically attractive performance",
+          "The 7 largest US Tech companies, which dominate the US stock market and the technology sector globally",
+          "Magnificent 7",
+          "Many Successful companies from various sectors showcase the diversity of the US market",
+          "World-leading companies outside of tech"
+        ],
+        "disclaimers": [
+          {
+            "text": "These examples are no investment recommendations.",
+            "font_size": 12.0,
+            "font_bold": true,
+            "position": "footer"
+          },
+          {
+            "text": "Source: ODDO BHF AM, Bloomberg, Friedrich Ebert Foundation, IFO, IG, Federal Reserve, Investopedia,WIPO, IMF, MSCI | Data as of 31/08/2025",
+            "font_size": null,
+            "font_bold": false,
+            "position": "footer"
+          }
+        ],
+        "sources": [
+          "ODDO BHF AM",
+          "Bloomberg",
+          "Friedrich Ebert Foundation",
+          "IFO",
+          "IG",
+          "Federal Reserve",
+          "Investopedia",
+          "WIPO",
+          "IMF",
+          "MSCI"
+        ],
+        "dates": [
+          "31/08/2025"
+        ],
+        "additional_text": "ODDO BHF US Equity Active UCITS ETF – October 2025"
+      }
+    },
+    {
+      "slide_number": 4,
+      "slide_title": "The case for momentum investments",
+      "content": {
+        "main_text": "Momentum historically outperformed the broad market in the USA1\nthe momentum effect & the investment philosophy behind\nContinuation of returns\nStocks that outperformed in the past tend to continue to perform well in the future, creating trends in the market.\n\nA Stock Market “Anomaly”\nThis so-called momentum effect is academically well researched and persists in various markets and for different time periods.\n\nBehavioral Finance explanations\nTrends are caused by irrational investor behaviors like anchoring, overconfidence or herding.\n\nthese market trends can be exploited\nBy systematically capturing these trends a momentum strategy seeks to generate excess returns relative to the broad market.",
+        "bullet_points": [],
+        "team_members": [
+          {
+            "name": "Dr. Stefan Braun, CFA",
+            "role": "Global Head of Systematic Strategies",
+            "experience": ""
+          },
+          {
+            "name": "Karsten Seier, CFA",
+            "role": "Global Head of Systematic Strategies",
+            "experience": ""
+          },
+          {
+            "name": "Steffen Fuchs, CFA",
+            "role": "Senior Portfolio Manager / Quantitative Analyst",
+            "experience": ""
+          }
+        ],
+        "disclaimers": [
+          {
+            "text": "Current Management team, subject to change. Past performance is not a reliable indicator of future performance and is not constant over time",
+            "font_size": 12.0,
+            "font_bold": true,
+            "position": "footer"
+          }
+        ],
+        "sources": [
+          "ODDO BHF AM",
+          "Bloomberg",
+          "DeBondt and Thaler 1985",
+          "Jegadesh and Titman 1993",
+          "Ethan Zell 2020"
+        ],
+        "numbers_data": [
+          "31/08/2025",
+          "25",
+          "25",
+          "10"
+        ],
+        "dates": [
+          "31/08/2025",
+          "1985",
+          "1993",
+          "2020"
+        ],
+        "additional_text": "AND HOW WE PUT IT INTO PRACTICE\nInvestment Process Overview\nStep 1: \u000bIdentification of high-quality trends\nStep 2: \u000bConstruction of a diversified momentum portfolio\nResult:\u000bBroadly diversified and risk-controlled momentum portfolio covering many different trends\nAn experienced management team\n--     4\nODDO BHF US Equity Active UCITS ETF – October 2025"
+      }
+    },
+    {
+      "slide_number": 5,
+      "slide_title": "Why invest IN ODDO BHF US Equity Active UCITS ETF, ACCORDING TO US ?",
+      "content": {
+        "main_text": "Exploitation of the momentum effect, a market anomaly based on a profound economical basis\n\nStudies have proved for various time periods that markets move in trends. This market anomaly is called momentum effect and is caused by behavioral biases of market participants. Our proprietary trend-following investment strategy is a diversified approach to invest in different market trends with the objective to capture these trends and generate a long-term outperformance.\n\nRules-based investment process\n\nFully quantitative investment approach removing emotion from portfolio decisions. A systematic approach ensures that investments are made consistently and objectively, while also making the strategy transparent and repeatable.\n\nActive Risk Management at the core of the strategy\nThe quantitative model rates equities based on a smart momentum strategy which involves a strong focus on diversification and risk management by applying various constraints in the portfolio optimization in order to avoid classic pitfalls of momentum investing like trend reversal and concentration risks.\n\nActive ETF Format\nA cost-efficient way to benefit from ODDO BHF AM’s long-term experience in quantitative investments in the US market. Stefan Braun and Karsten Seier, the developers of the strategy more than 20 years ago, successfully managed it through the various market cycles and are still managing the portfolio today.",
+        "disclaimers": [
+          {
+            "text": "ODDO BHF US Equity Active UCITS ETF is exposed to the following risks: : Investment Strategy Risk, Active Management Risk, Quantitative Model Risk, Secondary Market Trading Risk, Concentration Risk, Emerging Markets Risk, Currency Risk, ETF Class and Non-ETF Class Risk, Environmental, Social and Governance Standards, SFDR Sub-Fund Classification Risk, Screening Risk, Liquidity of Investments, Small- and Mid-Capitalisation Risk, Political and/or Legal/Regulatory Risk, Regulatory Restrictions, and Issuer-specific Risk , Investors are advised to consult the Key Investor Information Document and the fund prospectus for detailed information on the risks to which the fund is exposed.",
+            "font_size": 9.0,
+            "font_bold": false,
+            "position": "body"
+          }
+        ],
+        "tables": [
+          {
+            "rows": [
+              [
+                "Exploitation of the momentum effect, a market anomaly based on a profound economical basis\n\nStudies have proved for various time periods that markets move in trends. This market anomaly is called momentum effect and is caused by behavioral biases of market participants. Our proprietary trend-following investment strategy is a diversified approach to invest in different market trends with the objective to capture these trends and generate a long-term outperformance.",
+                "Rules-based investment process\n\nFully quantitative investment approach removing emotion from portfolio decisions. A systematic approach ensures that investments are made consistently and objectively, while also making the strategy transparent and repeatable."
+              ],
+              [
+                "Active Risk Management at the core of the strategy\nThe quantitative model rates equities based on a smart momentum strategy which involves a strong focus on diversification and risk management by applying various constraints in the portfolio optimization in order to avoid classic pitfalls of momentum investing like trend reversal and concentration risks.",
+                "Active ETF Format\nA cost-efficient way to benefit from ODDO BHF AM’s long-term experience in quantitative investments in the US market. Stefan Braun and Karsten Seier, the developers of the strategy more than 20 years ago, successfully managed it through the various market cycles and are still managing the portfolio today."
+              ]
+            ],
+            "row_count": 2,
+            "col_count": 2
+          }
+        ],
+        "sources": [
+          "ODDO BHF AM"
+        ],
+        "dates": [
+          "2025"
+        ],
+        "additional_text": "Risks\nODDO BHF US Equity Active UCITS ETF – October 2025\nSource: ODDO BHF AM | Data as of 2025"
+      }
+    }
+  ],
+  "page_de_fin": {
+    "slide_number": 6,
+    "slide_title": "General characteristics",
+    "content": {
+      "legal_mention_sgp": {
+        "text": "ODDO BHF Asset Management SAS (France) Portfolio management company approved by the Autorité des Marchés Financiers under GP 99011. Société par actions simplifiée with capital of € 21,500,000. Trade Register (RCS) 340 902 857 Paris. 12 boulevard de la Madeleine · 75440 Paris Cedex 09 France · Phone: +33 (0)1 44 51 85 00 · www.am.oddo-bhf.com ODDO BHF AM is the asset management division of the ODDO BHF Group. It is the common brand of three legally separate asset management companies: ODDO BHF AM SAS (France), ODDO BHF  AM GmbH (Germany) and ODDO BHF  AM Lux (Luxembourg). This document has been drawn up by ODDO BHF ASSET MANAGEMENT SAS. for market communication. Its communication to any investor is the exclusive responsibility of each distributor or advisor with the exception of Belgium, where this document is intended exclusively for distributors and may not be distributed to non-professional clients. Potential investors should consult an investment advisor before subscribing to the fund. The investor is informed that the fund presents a risk of capital loss, but also many risks linked to the financial instruments/strategies in the portfolio. In case of subscription, investors must read the Key Information Document (KID) and the fund’s prospectus in order to acquaint themselves with the detailed nature of any risks incurred and all costs. The value of the investment may vary both upwards and downwards and may not be returned in full. The investment must be made in accordance with investors’ investment objectives, their investment horizon and their capacity to deal with the risk arising from the transaction. ODDO BHF ASSET MANAGEMENT SAS cannot be held responsible for any direct or indirect damages resulting from the use of this document or the information contained in it. This information is provided for indicative purposes and may be modified at any moment without prior notice. Any opinions presented in this document result from our market forecasts on the publication date. They are subject to change according to market conditions and ODDO BHF ASSET MANAGEMENT SAS shall not in any case be held contractually liable for them. The net asset values presented in this document are provided for indicative purposes only. Only the net asset value marked on the transaction statement and the securities account statement is authoritative. Subscriptions and redemptions of mutual funds are processed at an unknown asset value. A summary of investor rights is available free of charge in electronic form in English language on the website at : https://am.oddo-bhf.com/FRANCE/en/non_professional_investor/infos_reglementaire The fund may have been authorized for distribution in different EU member states. Investors are advised to the fact that the management company may decide to withdraw with the arrangements it has made for the distribution of the units of the fund in accordance with Article 93a of Directive 2009/65/EC and Article 32a of Directive 2011/61/EU. The complaints handling policy is available on our website am.oddo-bhf.com in the regulatory information section. Customer complaints can be addressed in the first instance to the following e-mail address: service_client@oddo-bhf.com (or directly to the Consumer Mediation Service: http://mediationconsommateur.be (ONLY FOR BELGIUM)). The Key Information Document (FR, ENG, GER) and the prospectus (FR, ENG, GER) are available free of charge from ODDO BHF ASSET MANAGEMENT SAS or at am.oddo-bhf.com or at authorized distributors. The annual and interim reports are available free of charge from ODDO BHF ASSET MANAGEMENT SAS or on its internet site am.oddo-bhf.com. The fund is licensed for sale in Switzerland. The Key Information Document, the prospectus, the annual and interim reports for Switzerland can be obtained free of charge from the Swiss Representative and paying agent, RBC INVESTOR SERVICES BANK, succursale de Zürich, Bleicherweg 7, 8027 Zürich.",
+        "font_size": null,
+        "font_bold": false,
+        "visible": true
+      },
+      "contact_info": {
+        "management_company": "ODDO BHF Asset Management SAS",
+        "address": "12 boulevard de la Madeleine · 75440 Paris Cedex 09 France",
+        "phone": "+33 (0)1 44 51 85 00",
+        "email": "service_client@oddo-bhf.com",
+        "website": "www.am.oddo-bhf.com"
+      },
+      "fund_characteristics": {
+        "structure": "Sub-fund of the HANetf ICAV 1",
+        "fees": "TER: 0,35%",
+        "minimum_investment": "None",
+        "benchmark": "S&P 500 USD Net Total",
+        "srri": "",
+        "aum": ""
+      },
+      "validator": {
+        "name": "",
+        "role": "",
+        "date": ""
+      },
+      "document_date": "",
+      "additional_disclaimers": [
+        "Potential investors should consult an investment advisor before subscribing to the fund.",
+        "The investor is informed that the fund presents a risk of capital loss, but also many risks linked to the financial instruments/strategies in the portfolio.",
+        "In case of subscription, investors must read the Key Information Document (KID) and the fund’s prospectus in order to acquaint themselves with the detailed nature of any risks incurred and all costs.",
+        "The value of the investment may vary both upwards and downwards and may not be returned in full.",
+        "The investment must be made in accordance with investors’ investment objectives, their investment horizon and their capacity to deal with the risk arising from the transaction.",
+        "ODDO BHF ASSET MANAGEMENT SAS cannot be held responsible for any direct or indirect damages resulting from the use of this document or the information contained in it.",
+        "This information is provided for indicative purposes and may be modified at any moment without prior notice.",
+        "Any opinions presented in this document result from our market forecasts on the publication date.",
+        "They are subject to change according to market conditions and ODDO BHF ASSET MANAGEMENT SAS shall not in any case be held contractually liable for them.",
+        "The net asset values presented in this document are provided for indicative purposes only.",
+        "Only the net asset value marked on the transaction statement and the securities account statement is authoritative.",
+        "Subscriptions and redemptions of mutual funds are processed at an unknown asset value.",
+        "The fund may have been authorized for distribution in different EU member states.",
+        "Investors are advised to the fact that the management company may decide to withdraw with the arrangements it has made for the distribution of the units of the fund in accordance with Article 93a of Directive 2009/65/EC and Article 32a of Directive 2011/61/EU."
+      ],
+      "tables": [
+        {
+          "title": "General characteristics",
+          "rows": [
+            {
+              "columns": [
+                {
+                  "text": "Fund name"
+                },
+                {
+                  "text": "ODDO BHF US Equity Active UCITS ETF"
+                }
+              ]
+            },
+            {
+              "columns": [
+                {
+                  "text": "Benchmark"
+                },
+                {
+                  "text": "S&P 500 USD Net Total"
+                }
+              ]
+            },
+            {
+              "columns": [
+                {
+                  "text": "Investment objective"
+                },
+                {
+                  "text": "The investment objective is to achieve long-term capital growth by investing in a portfolio of US equity securities."
+                }
+              ]
+            },
+            {
+              "columns": [
+                {
+                  "text": "Inception date"
+                },
+                {
+                  "text": "2025"
+                }
+              ]
+            },
+            {
+              "columns": [
+                {
+                  "text": "Recommended investment horizon"
+                },
+                {
+                  "text": "5 years"
+                }
+              ]
+            },
+            {
+              "columns": [
+                {
+                  "text": "ISIN code"
+                },
+                {
+                  "text": "IE000YR7N5U8"
+                }
+              ]
+            },
+            {
+              "columns": [
+                {
+                  "text": "Stock Exchanges"
+                },
+                {
+                  "text": "Xetra, Euronext Paris and Dublin, SIX"
+                }
+              ]
+            },
+            {
+              "columns": [
+                {
+                  "text": "Tickers"
+                },
+                {
+                  "text": "OBUS, Xetra: ODUS"
+                }
+              ]
+            },
+            {
+              "columns": [
+                {
+                  "text": "Currency"
+                },
+                {
+                  "text": "USD"
+                }
+              ]
+            },
+            {
+              "columns": [
+                {
+                  "text": "Dividend policy"
+                },
+                {
+                  "text": "Accumulation"
+                }
+              ]
+            },
+            {
+              "columns": [
+                {
+                  "text": "TER"
+                },
+                {
+                  "text": "0,35%"
+                }
+              ]
+            },
+            {
+              "columns": [
+                {
+                  "text": "Minimum Initial Investment Amount"
+                },
+                {
+                  "text": "None"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Structure and technical information",
+          "rows": [
+            {
+              "columns": [
+                {
+                  "text": "Domicile"
+                },
+                {
+                  "text": "Ireland"
+                }
+              ]
+            },
+            {
+              "columns": [
+                {
+                  "text": "Management company"
+                },
+                {
+                  "text": "HANetf Management Limited"
+                }
+              ]
+            },
+            {
+              "columns": [
+                {
+                  "text": "Legal structure"
+                },
+                {
+                  "text": "Sub-fund of the HANetf ICAV 1"
+                }
+              ]
+            },
+            {
+              "columns": [
+                {
+                  "text": "Investment Manager by delegation"
+                },
+                {
+                  "text": "ODDO BHF Asset Management GmbH (sub-delegation from ODDO BHF Asset Management SAS )"
+                }
+              ]
+            },
+            {
+              "columns": [
+                {
+                  "text": "Custodian"
+                },
+                {
+                  "text": "JP Morgan, Dublin Branch"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Primary Market Parameters",
+          "rows": [
+            {
+              "columns": [
+                {
+                  "text": "Creation Unit"
+                },
+                {
+                  "text": "100,000 shares"
+                }
+              ]
+            },
+            {
+              "columns": [
+                {
+                  "text": "Initial Offering Price"
+                },
+                {
+                  "text": "$10"
+                }
+              ]
+            },
+            {
+              "columns": [
+                {
+                  "text": "Dealing Day"
+                },
+                {
+                  "text": "Each Business Day (with exceptions)"
+                }
+              ]
+            },
+            {
+              "columns": [
+                {
+                  "text": "Dealing Deadline"
+                },
+                {
+                  "text": "3:30 p.m. (Irish time) on Business day"
+                }
+              ]
+            },
+            {
+              "columns": [
+                {
+                  "text": "Settlement Date Subscriptions"
+                },
+                {
+                  "text": "T+1 (cash) for subscriptions and T+2 (max T+10) for redemptions"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "additional_text": "Countries available for Sales Ireland, France, Germany, Switzerland"
+    }
+  }
+}
